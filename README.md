@@ -1,7 +1,7 @@
 # WebPush for iOS sample code and demo site
 _WebPush - is browser technology that allows site developer send notifications from backend to subscribers. Now at iPhone and iPad!_
 <br><br>
-<b>Demo https://andreinwald.github.io/webpush-ios-example </b><br>
+<b>Demo https://hlopezvg.github.io/webpush-ios-example </b><br>
 
 <img src="images/webpush-iphone-prompt.png" alt="Iphone prompt example" style="height:400px">
 
@@ -13,7 +13,7 @@ _WebPush - is browser technology that allows site developer send notifications f
 - instead, you need to generate **VAPID** (pair of public and private keys)
 <br/>
 
-https://github.com/andreinwald/webpush-ios-example/assets/7912182/fa89c846-4b97-4fe2-93ca-0c4f4e2e9647
+https://github.com/hlopezvg/webpush-ios-example/assets/7912182/fa89c846-4b97-4fe2-93ca-0c4f4e2e9647
 
 ---
 # More info
@@ -185,10 +185,10 @@ You can send WebPush from **frontend**:
 const title = "Push title";
 const options = {
     body: "Additional text with some description",
-    icon: "https://andreinwald.github.io/webpush-ios-example/images/favicon.png",
+    icon: "https://hlopezvg.github.io/webpush-ios-example/images/favicon.png",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Orange_tabby_cat_sitting_on_fallen_leaves-Hisashi-01A.jpg/1920px-Orange_tabby_cat_sitting_on_fallen_leaves-Hisashi-01A.jpg",
     data: {
-        "url": "https://andreinwald.github.io/webpush-ios-example/?page=success",
+        "url": "https://hlopezvg.github.io/webpush-ios-example/?page=success",
         "message_id": "your_internal_unique_message_id_for_tracking"
     },
 };
